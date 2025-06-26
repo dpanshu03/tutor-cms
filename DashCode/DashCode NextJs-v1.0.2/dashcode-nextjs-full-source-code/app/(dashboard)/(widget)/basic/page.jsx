@@ -152,7 +152,7 @@ const BasicWidget = () => {
                 <span className="block">Mr. Dianne Russell</span>
               </div>
               <p className="text-sm text-wgite text-white dark:text-slate-800 font-normal">
-                Welcome to Dashcode
+                Welcome to borderplus
               </p>
             </div>
           </div>

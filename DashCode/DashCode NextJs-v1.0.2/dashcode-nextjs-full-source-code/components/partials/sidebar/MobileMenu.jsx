@@ -50,13 +50,13 @@ const MobileMenu = ({ className = "custom-class" }) => {
             </div>
           </div>
         </Link>
-        <button
+        {/* <button
           type="button"
           onClick={() => setMobileMenu(!mobileMenu)}
           className="cursor-pointer text-slate-900 dark:text-white text-2xl"
         >
           <Icon icon="heroicons:x-mark" />
-        </button>
+        </button> */}
       </div>
 
       <div
@@ -70,21 +70,21 @@ const MobileMenu = ({ className = "custom-class" }) => {
       >
         <Navmenu menus={menuItems} />
         <div className="bg-slate-900 mb-24 lg:mb-10 mt-24 p-4 relative text-center rounded-2xl text-white">
-          <img
+          {/* <img
             src="/assets/images/svg/rabit.svg"
             alt=""
             className="mx-auto relative -mt-[73px]"
-          />
-          <div className="max-w-[160px] mx-auto mt-6">
+          /> */}
+          {/* <div className="max-w-[160px] mx-auto mt-6">
             <div className="widget-title">Unlimited Access</div>
             <div className="text-xs font-light">
               Upgrade your system to business plan
             </div>
-          </div>
+          </div> */}
           <div className="mt-6">
-            <button className="btn bg-white hover:bg-opacity-80 text-slate-900 btn-sm w-full block">
+            {/* <button className="btn bg-white hover:bg-opacity-80 text-slate-900 btn-sm w-full block">
               Upgrade
-            </button>
+            </button> */}
           </div>
         </div>
       </SimpleBar>
